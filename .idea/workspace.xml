@@ -22,89 +22,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="install.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/main/admin/install.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/default/template/admin/categories/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0">
-              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding>
-                <element signature="n#index#0;n#Install#0;n#!!top" expanded="false" />
-                <element signature="n#save#0;n#Install#0;n#!!top" expanded="false" />
-                <element signature="n#complete#0;n#Install#0;n#!!top" expanded="false" />
-                <marker date="1463378714605" expanded="true" signature="2805:3228" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="3240:3501" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="3514:3890" placeholder="CREATE TABLE..open_plans..." />
-                <marker date="1463378714605" expanded="true" signature="3901:4373" placeholder="CREATE TABLE..categories..." />
-                <marker date="1463378714605" expanded="true" signature="4384:4627" placeholder="CREATE TABLE..packagePlanMappings..." />
-                <marker date="1463378714605" expanded="true" signature="4638:4885" placeholder="CREATE TABLE..userPlanMappings..." />
-                <marker date="1463378714605" expanded="true" signature="4897:5374" placeholder="CREATE TABLE..open_packages..." />
-                <marker date="1463378714605" expanded="true" signature="5391:5672" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="5684:6005" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="6017:6370" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="6382:6662" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="6674:7053" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="7064:7467" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="7478:7716" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="7728:8122" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="8134:8709" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="8721:9012" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="9024:9860" placeholder="CREATE TABLE..IF..." />
-                <marker date="1463378714605" expanded="true" signature="9871:9958" placeholder="ALTER TABLE `${$this-&gt;getTableName('admins')}`..." />
-                <marker date="1463378714605" expanded="true" signature="9970:10052" placeholder="ALTER TABLE `${$this-&gt;getTableName('bulksms')}`..." />
-                <marker date="1463378714605" expanded="true" signature="10064:10144" placeholder="ALTER TABLE `${$this-&gt;getTableName('cards')}`..." />
-                <marker date="1463378714605" expanded="true" signature="10156:10238" placeholder="ALTER TABLE `${$this-&gt;getTableName('contact')}`..." />
-                <marker date="1463378714605" expanded="true" signature="10250:10332" placeholder="ALTER TABLE `${$this-&gt;getTableName('content')}`..." />
-                <marker date="1463378714605" expanded="true" signature="10344:10424" placeholder="ALTER TABLE `${$this-&gt;getTableName('draft')}`..." />
-                <marker date="1463378714605" expanded="true" signature="10436:10516" placeholder="ALTER TABLE `${$this-&gt;getTableName('group')}`..." />
-                <marker date="1463378714605" expanded="true" signature="10527:10608" placeholder="ALTER TABLE `${$this-&gt;getTableName('logins')}`..." />
-                <marker date="1463378714605" expanded="true" signature="10619:10712" placeholder="ALTER TABLE `${$this-&gt;getTableName('passwordresettoken')}`..." />
-                <marker date="1463378714605" expanded="true" signature="10723:10802" placeholder="ALTER TABLE `${$this-&gt;getTableName('page')}`..." />
-                <marker date="1463378714605" expanded="true" signature="10813:10891" placeholder="ALTER TABLE `${$this-&gt;getTableName('sms')}`..." />
-                <marker date="1463378714605" expanded="true" signature="10902:10986" placeholder="ALTER TABLE `${$this-&gt;getTableName('usedcards')}`..." />
-                <marker date="1463378714605" expanded="true" signature="10997:11082" placeholder="ALTER TABLE `${$this-&gt;getTableName('users')}`..." />
-                <marker date="1463378714605" expanded="true" signature="11093:11215" placeholder="ALTER TABLE `${$this-&gt;getTableName('bulksms')}`..." />
-                <marker date="1463378714605" expanded="true" signature="11226:11327" placeholder="ALTER TABLE `${$this-&gt;getTableName('cards')}`..." />
-                <marker date="1463378714605" expanded="true" signature="11338:11460" placeholder="ALTER TABLE `${$this-&gt;getTableName('contact')}`..." />
-                <marker date="1463378714605" expanded="true" signature="11471:11593" placeholder="ALTER TABLE `${$this-&gt;getTableName('content')}`..." />
-                <marker date="1463378714605" expanded="true" signature="11604:11722" placeholder="ALTER TABLE `${$this-&gt;getTableName('group')}`..." />
-                <marker date="1463378714605" expanded="true" signature="11733:11853" placeholder="ALTER TABLE `${$this-&gt;getTableName('logins')}`..." />
-                <marker date="1463378714605" expanded="true" signature="11864:11964" placeholder="ALTER TABLE `${$this-&gt;getTableName('page')}`..." />
-                <marker date="1463378714605" expanded="true" signature="11975:12095" placeholder="ALTER TABLE `${$this-&gt;getTableName('sms')}`..." />
-                <marker date="1463378714605" expanded="true" signature="12106:12211" placeholder="ALTER TABLE `${$this-&gt;getTableName('usedcards')}`..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plans.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/main/admin/plans.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29310346">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userPlanMapping.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/model/core/userPlanMapping.php">
+      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/model/core/category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="42" />
-              <folding>
-                <marker date="1463310648662" expanded="true" signature="1084:1259" placeholder="insert into ${$this-&gt;getTableName()}..." />
-                <marker date="1463310648662" expanded="true" signature="1403:1496" placeholder="delete from ..." />
-                <marker date="1463310648662" expanded="true" signature="1650:1723" placeholder="SELECT * FRO..${Core::getTableName(self::TABLE_PREFIX)}..." />
-              </folding>
+            <state vertical-scroll-proportion="-37.692307">
+              <caret line="78" column="40" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registry.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/model/registry.xml">
+      <file leaf-file-name="manage.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/default/template/admin/categories/manage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.41034484">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categories.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/main/admin/categories.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-37.346153">
+              <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -123,17 +75,11 @@
         <option value="$PROJECT_DIR$/app/code/core/model/core/packageUserMapping.php" />
         <option value="$PROJECT_DIR$/app/code/core/model/core/userPlanMapping.php" />
         <option value="$PROJECT_DIR$/app/code/core/settings.xml" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/app/core.php" />
         <option value="$PROJECT_DIR$/app/code/main/account/account.php" />
         <option value="$PROJECT_DIR$/app/code/core/model/core/user.php" />
         <option value="$PROJECT_DIR$/app/design/default/template/shared/portal/sidebar.php" />
         <option value="$PROJECT_DIR$/app/code/main/dashboard/dashboard.php" />
-        <option value="$PROJECT_DIR$/app/code/main/admin/plans.php" />
-        <option value="$PROJECT_DIR$/app/code/core/model/core/plan.php" />
-        <option value="$PROJECT_DIR$/app/modules/main/admin.xml" />
         <option value="$PROJECT_DIR$/app/code/core/model/core/category.php" />
-        <option value="$PROJECT_DIR$/app/code/main/admin/categories.php" />
         <option value="$PROJECT_DIR$/app/code/core/model/registry.xml" />
         <option value="$PROJECT_DIR$/app/code/core/model/core/package.php" />
         <option value="$PROJECT_DIR$/app/skin/assets/packages/empty/index.php" />
@@ -141,6 +87,22 @@
         <option value="$PROJECT_DIR$/app/code/core/abstract/module/controller.php" />
         <option value="$PROJECT_DIR$/app/code/main/admin/packages.php" />
         <option value="$PROJECT_DIR$/app/code/main/admin/install.php" />
+        <option value="$PROJECT_DIR$/app/design/default/layout/admin/plans_index.xml" />
+        <option value="$PROJECT_DIR$/app/design/default/layout/admin/plans_manage.xml" />
+        <option value="$PROJECT_DIR$/app/design/default/layout/admin/plans_add.xml" />
+        <option value="$PROJECT_DIR$/app/modules/main/admin.xml" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/app/core.php" />
+        <option value="$PROJECT_DIR$/app/code/core/model/core/plan.php" />
+        <option value="$PROJECT_DIR$/app/code/main/admin/plans.php" />
+        <option value="$PROJECT_DIR$/app/design/default/template/admin/plans/manage.php" />
+        <option value="$PROJECT_DIR$/app/design/default/template/admin/plans/index.php" />
+        <option value="$PROJECT_DIR$/app/design/default/layout/admin/categories_index.xml" />
+        <option value="$PROJECT_DIR$/app/design/default/layout/admin/categories_add.xml" />
+        <option value="$PROJECT_DIR$/app/design/default/layout/admin/categories_manage.xml" />
+        <option value="$PROJECT_DIR$/app/code/main/admin/categories.php" />
+        <option value="$PROJECT_DIR$/app/design/default/template/admin/categories/index.php" />
+        <option value="$PROJECT_DIR$/app/design/default/template/admin/categories/manage.php" />
       </list>
     </option>
   </component>
@@ -156,7 +118,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1364" />
+    <option name="width" value="1376" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -198,7 +160,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AnySiteGenerator" />
+              <option name="myItemId" value="AnySiteInstaller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,7 +170,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AnySiteGenerator" />
+              <option name="myItemId" value="AnySiteInstaller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -222,7 +184,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="AnySiteInstaller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="AnySiteGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnySiteInstaller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -240,29 +220,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AnySiteGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnySiteGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnySiteGenerator" />
+              <option name="myItemId" value="AnySiteInstaller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -277,21 +235,101 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="AnySiteGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnySiteInstaller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnySiteGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnySiteInstaller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnySiteGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnySiteInstaller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\AnySiteInstaller\app\design\default\template\admin\plans" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -337,10 +375,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1364" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24779412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -377,195 +415,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/main/admin/install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
-          <folding>
-            <element signature="n#index#0;n#Install#0;n#!!top" expanded="false" />
-            <element signature="n#save#0;n#Install#0;n#!!top" expanded="false" />
-            <element signature="n#complete#0;n#Install#0;n#!!top" expanded="false" />
-            <marker date="1463378714605" expanded="true" signature="2805:3228" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="3240:3501" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="3514:3890" placeholder="CREATE TABLE..open_plans..." />
-            <marker date="1463378714605" expanded="true" signature="3901:4373" placeholder="CREATE TABLE..categories..." />
-            <marker date="1463378714605" expanded="true" signature="4384:4627" placeholder="CREATE TABLE..packagePlanMappings..." />
-            <marker date="1463378714605" expanded="true" signature="4638:4885" placeholder="CREATE TABLE..userPlanMappings..." />
-            <marker date="1463378714605" expanded="true" signature="4897:5374" placeholder="CREATE TABLE..open_packages..." />
-            <marker date="1463378714605" expanded="true" signature="5391:5672" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="5684:6005" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="6017:6370" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="6382:6662" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="6674:7053" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="7064:7467" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="7478:7716" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="7728:8122" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="8134:8709" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="8721:9012" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="9024:9860" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="9871:9958" placeholder="ALTER TABLE `${$this-&gt;getTableName('admins')}`..." />
-            <marker date="1463378714605" expanded="true" signature="9970:10052" placeholder="ALTER TABLE `${$this-&gt;getTableName('bulksms')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10064:10144" placeholder="ALTER TABLE `${$this-&gt;getTableName('cards')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10156:10238" placeholder="ALTER TABLE `${$this-&gt;getTableName('contact')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10250:10332" placeholder="ALTER TABLE `${$this-&gt;getTableName('content')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10344:10424" placeholder="ALTER TABLE `${$this-&gt;getTableName('draft')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10436:10516" placeholder="ALTER TABLE `${$this-&gt;getTableName('group')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10527:10608" placeholder="ALTER TABLE `${$this-&gt;getTableName('logins')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10619:10712" placeholder="ALTER TABLE `${$this-&gt;getTableName('passwordresettoken')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10723:10802" placeholder="ALTER TABLE `${$this-&gt;getTableName('page')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10813:10891" placeholder="ALTER TABLE `${$this-&gt;getTableName('sms')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10902:10986" placeholder="ALTER TABLE `${$this-&gt;getTableName('usedcards')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10997:11082" placeholder="ALTER TABLE `${$this-&gt;getTableName('users')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11093:11215" placeholder="ALTER TABLE `${$this-&gt;getTableName('bulksms')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11226:11327" placeholder="ALTER TABLE `${$this-&gt;getTableName('cards')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11338:11460" placeholder="ALTER TABLE `${$this-&gt;getTableName('contact')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11471:11593" placeholder="ALTER TABLE `${$this-&gt;getTableName('content')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11604:11722" placeholder="ALTER TABLE `${$this-&gt;getTableName('group')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11733:11853" placeholder="ALTER TABLE `${$this-&gt;getTableName('logins')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11864:11964" placeholder="ALTER TABLE `${$this-&gt;getTableName('page')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11975:12095" placeholder="ALTER TABLE `${$this-&gt;getTableName('sms')}`..." />
-            <marker date="1463378714605" expanded="true" signature="12106:12211" placeholder="ALTER TABLE `${$this-&gt;getTableName('usedcards')}`..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/main/admin/packages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="n#Index#0;n#Packages#0;n#!!top" expanded="false" />
-            <element signature="n#Update#0;n#Packages#0;n#!!top" expanded="false" />
-            <element signature="n#Delete#0;n#Packages#0;n#!!top" expanded="false" />
-            <element signature="n#CreatePackageFromUpload#0;n#Packages#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/main/admin/module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/skin/assets/packages/empty/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/skin/assets/packages/empty/installer/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/skin/assets/packages/empty/installer/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/model/core/package.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
-          <folding>
-            <element signature="n#__construct#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <element signature="n#setProperties#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <element signature="n#getTableName#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <marker date="1463371478046" expanded="true" signature="1191:1217" placeholder="SELECT * FRO..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1218" placeholder="SELECT * FRO..${$this}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1257" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1258" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1259" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1260" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1324" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1325" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1326" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1327" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1367" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1369" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2602" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2702" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2705" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2849:2942" placeholder="delete from ..." />
-            <marker date="1463371478046" expanded="true" signature="3073:3100" placeholder="SELECT COUNT..." />
-            <marker date="1463371478046" expanded="true" signature="3550:3658" placeholder="SELECT * FRO..${Core::getTableName(self::TABLE_PREFIX)}..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/model/registry.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/main/admin/install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="46" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
-          <folding>
-            <element signature="n#index#0;n#Install#0;n#!!top" expanded="false" />
-            <element signature="n#save#0;n#Install#0;n#!!top" expanded="false" />
-            <element signature="n#complete#0;n#Install#0;n#!!top" expanded="false" />
-            <marker date="1463378714605" expanded="true" signature="2805:3228" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="3240:3501" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="3514:3890" placeholder="CREATE TABLE..open_plans..." />
-            <marker date="1463378714605" expanded="true" signature="3901:4373" placeholder="CREATE TABLE..categories..." />
-            <marker date="1463378714605" expanded="true" signature="4384:4627" placeholder="CREATE TABLE..packagePlanMappings..." />
-            <marker date="1463378714605" expanded="true" signature="4638:4885" placeholder="CREATE TABLE..userPlanMappings..." />
-            <marker date="1463378714605" expanded="true" signature="4897:5374" placeholder="CREATE TABLE..open_packages..." />
-            <marker date="1463378714605" expanded="true" signature="5391:5672" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="5684:6005" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="6017:6370" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="6382:6662" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="6674:7053" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="7064:7467" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="7478:7716" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="7728:8122" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="8134:8709" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="8721:9012" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="9024:9860" placeholder="CREATE TABLE..IF..." />
-            <marker date="1463378714605" expanded="true" signature="9871:9958" placeholder="ALTER TABLE `${$this-&gt;getTableName('admins')}`..." />
-            <marker date="1463378714605" expanded="true" signature="9970:10052" placeholder="ALTER TABLE `${$this-&gt;getTableName('bulksms')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10064:10144" placeholder="ALTER TABLE `${$this-&gt;getTableName('cards')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10156:10238" placeholder="ALTER TABLE `${$this-&gt;getTableName('contact')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10250:10332" placeholder="ALTER TABLE `${$this-&gt;getTableName('content')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10344:10424" placeholder="ALTER TABLE `${$this-&gt;getTableName('draft')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10436:10516" placeholder="ALTER TABLE `${$this-&gt;getTableName('group')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10527:10608" placeholder="ALTER TABLE `${$this-&gt;getTableName('logins')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10619:10712" placeholder="ALTER TABLE `${$this-&gt;getTableName('passwordresettoken')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10723:10802" placeholder="ALTER TABLE `${$this-&gt;getTableName('page')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10813:10891" placeholder="ALTER TABLE `${$this-&gt;getTableName('sms')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10902:10986" placeholder="ALTER TABLE `${$this-&gt;getTableName('usedcards')}`..." />
-            <marker date="1463378714605" expanded="true" signature="10997:11082" placeholder="ALTER TABLE `${$this-&gt;getTableName('users')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11093:11215" placeholder="ALTER TABLE `${$this-&gt;getTableName('bulksms')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11226:11327" placeholder="ALTER TABLE `${$this-&gt;getTableName('cards')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11338:11460" placeholder="ALTER TABLE `${$this-&gt;getTableName('contact')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11471:11593" placeholder="ALTER TABLE `${$this-&gt;getTableName('content')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11604:11722" placeholder="ALTER TABLE `${$this-&gt;getTableName('group')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11733:11853" placeholder="ALTER TABLE `${$this-&gt;getTableName('logins')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11864:11964" placeholder="ALTER TABLE `${$this-&gt;getTableName('page')}`..." />
-            <marker date="1463378714605" expanded="true" signature="11975:12095" placeholder="ALTER TABLE `${$this-&gt;getTableName('sms')}`..." />
-            <marker date="1463378714605" expanded="true" signature="12106:12211" placeholder="ALTER TABLE `${$this-&gt;getTableName('usedcards')}`..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/main/admin/packages.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -583,29 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="n#__construct#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <element signature="n#setProperties#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <element signature="n#getTableName#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <marker date="1463371478046" expanded="true" signature="1191:1217" placeholder="SELECT * FRO..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1218" placeholder="SELECT * FRO..${$this}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1257" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1258" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1259" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1260" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1324" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1325" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1326" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1327" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1367" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1369" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2602" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2702" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2705" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2849:2942" placeholder="delete from ..." />
-            <marker date="1463371478046" expanded="true" signature="3073:3100" placeholder="SELECT COUNT..." />
-            <marker date="1463371478046" expanded="true" signature="3550:3658" placeholder="SELECT * FRO..${Core::getTableName(self::TABLE_PREFIX)}..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,29 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="n#__construct#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <element signature="n#setProperties#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <element signature="n#getTableName#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <marker date="1463371478046" expanded="true" signature="1191:1217" placeholder="SELECT * FRO..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1218" placeholder="SELECT * FRO..${$this}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1257" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1258" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1259" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1260" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1324" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1325" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1326" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1327" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1367" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1369" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2602" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2702" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2705" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2849:2942" placeholder="delete from ..." />
-            <marker date="1463371478046" expanded="true" signature="3073:3100" placeholder="SELECT COUNT..." />
-            <marker date="1463371478046" expanded="true" signature="3550:3658" placeholder="SELECT * FRO..${Core::getTableName(self::TABLE_PREFIX)}..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/main/admin/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -774,46 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="50.923077">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="n#setProperties#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#Save#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#UpdateBillingInfo#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#Delete#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#GetTransactions#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#GetLastTransaction#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#GetGroups#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#GetDrafts#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#GetSentMessages#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#GetScheduledMessages#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#copyFromPDO#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#GetAllUsers#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#GetInactiveUsers#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#Count#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#Validate#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#FindUserById#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#FindUserByPhoneNumber#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#FindUserByEmail#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <element signature="n#getMobileNos#0;n#Core_Model_User#0;n#!!top" expanded="false" />
-            <marker date="1463344555149" expanded="true" signature="529:625" placeholder="select * fro..${$this-&gt;getTableName()}..." />
-            <marker date="1463344555149" expanded="true" signature="4623:5209" placeholder="insert into ${Core::getTableName('users')}..." />
-            <marker date="1463344555149" expanded="true" signature="6381:6495" placeholder="select * fro..${Core::getTableName('transactions')}..." />
-            <marker date="1463344555149" expanded="true" signature="6914:7184" placeholder="select * fro..${Core::getTableName('transactions')}..." />
-            <marker date="1463344555149" expanded="true" signature="7051:7183" placeholder="select MAX(i..${Core::getTableName('transactions')}..." />
-            <marker date="1463344555149" expanded="true" signature="7553:7681" placeholder="select * fro..${Core::getTableName('group')}..." />
-            <marker date="1463344555149" expanded="true" signature="8219:8329" placeholder="select * fro..draft..." />
-            <marker date="1463344555149" expanded="true" signature="8641:8750" placeholder="select * fro..draft..." />
-            <marker date="1463344555149" expanded="true" signature="9037:9151" placeholder="select * fro..draft..." />
-            <marker date="1463344555149" expanded="true" signature="10335:10408" placeholder="select * fro..${Core::getTableName('users')}..." />
-            <marker date="1463344555149" expanded="true" signature="10456:10562" placeholder="select * fro..${Core::getTableName('users')}..." />
-            <marker date="1463344555149" expanded="true" signature="10953:11057" placeholder="select * fro..${Core::getTableName('users')}..." />
-            <marker date="1463344555149" expanded="true" signature="11105:11262" placeholder="select * fro..${Core::getTableName('users')}..." />
-            <marker date="1463344555149" expanded="true" signature="11582:11667" placeholder="select count..." />
-            <marker date="1463344555149" expanded="true" signature="11892:12083" placeholder="select count..." />
-            <marker date="1463344555149" expanded="true" signature="12312:12413" placeholder="select * fro..${Core::getTableName('users')}..." />
-            <marker date="1463344555149" expanded="true" signature="12677:12779" placeholder="select * fro..${Core::getTableName('users')}..." />
-            <marker date="1463344555149" expanded="true" signature="13062:13163" placeholder="select * fro..${Core::getTableName('users')}..." />
-            <marker date="1463344555149" expanded="true" signature="13435:13482" placeholder="select mobil..users..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/model/core/plan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64827585">
-          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/main/cms/cms.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2862068">
@@ -866,70 +615,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/model/core/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.192307">
-          <caret line="78" column="40" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/main/admin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.423077">
-          <caret line="658" column="0" selection-start-line="658" selection-start-column="0" selection-end-line="658" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/main/admin/categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/model/core/package.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
-          <folding>
-            <element signature="n#__construct#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <element signature="n#setProperties#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <element signature="n#getTableName#0;n#Core_Model_Package#0;n#!!top" expanded="false" />
-            <marker date="1463371478046" expanded="true" signature="1191:1217" placeholder="SELECT * FRO..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1218" placeholder="SELECT * FRO..${$this}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1257" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1258" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1259" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1260" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1324" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1325" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1326" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1327" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1367" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="1191:1369" placeholder="SELECT * FRO..${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2602" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2702" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2128:2705" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463371478046" expanded="true" signature="2849:2942" placeholder="delete from ..." />
-            <marker date="1463371478046" expanded="true" signature="3073:3100" placeholder="SELECT COUNT..." />
-            <marker date="1463371478046" expanded="true" signature="3550:3658" placeholder="SELECT * FRO..${Core::getTableName(self::TABLE_PREFIX)}..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/model/registry.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,9 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -947,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,17 +709,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
           <caret line="12" column="45" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="45" />
-          <folding>
-            <marker date="1463310415973" expanded="true" signature="1100:1279" placeholder="insert into ${$this-&gt;getTableName()}..." />
-            <marker date="1463310415973" expanded="true" signature="1423:1516" placeholder="delete from ..." />
-            <marker date="1463310415973" expanded="true" signature="1674:1749" placeholder="SELECT * FRO..${Core::getTableName(self::TABLE_PREFIX)}..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/model/core/userPlanMapping.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="42" />
           <folding>
             <marker date="1463310648662" expanded="true" signature="1084:1259" placeholder="insert into ${$this-&gt;getTableName()}..." />
@@ -1047,7 +726,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/main/admin/install.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0">
+        <state vertical-scroll-proportion="-40.53846">
           <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding>
             <element signature="n#index#0;n#Install#0;n#!!top" expanded="false" />
@@ -1097,10 +776,192 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/layout/admin/users_index.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/model/registry.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46896553">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/layout/admin/plans_manage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/layout/admin/plans_add.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43965518">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/template/admin/users/manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.08793104">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="249" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/main/admin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6448276">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7396552">
+          <caret line="145" column="59" selection-start-line="145" selection-start-column="59" selection-end-line="145" selection-end-column="59" />
+          <folding>
+            <element signature="n#__construct#0;n#Core#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/model/core/plan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.769231">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1463381993932" expanded="true" signature="1347:1743" placeholder="insert into ${$this-&gt;getTableName()}..." />
+            <marker date="1463381993932" expanded="true" signature="1887:1980" placeholder="delete from ..." />
+            <marker date="1463381993932" expanded="true" signature="2096:2123" placeholder="SELECT COUNT..." />
+            <marker date="1463381993932" expanded="true" signature="2380:2394" placeholder="SELECT * FRO..${Core::getTableName(self::TABLE_PREFIX)}..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/layout/admin/plans_index.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/layout/admin/categories_index.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/layout/admin/categories_add.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/layout/admin/categories_manage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43965518">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/template/admin/plans/manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030852994">
+          <caret line="75" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="28" />
+          <folding>
+            <marker date="1463382326041" expanded="true" signature="1003:1304" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="1125:1277" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="1370:1678" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="1412:1678" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="1473:1678" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="1530:1678" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="1984:2210" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="2041:2210" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="2541:2906" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="2602:2906" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="2659:2906" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="2835:2906" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="3160:3453" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="3217:3453" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="3382:3453" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="3710:3959" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="3771:3959" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="3828:3959" placeholder="..." />
+            <marker date="1463382326041" expanded="true" signature="4401:4594" placeholder="..." />
+            <marker date="1463382326041" expanded="false" signature="4463:4477" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/template/admin/plans/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="40" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/main/admin/plans.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29310346">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.7034483">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="43" selection-end-column="32" />
+          <folding>
+            <element signature="n#Index#0;n#Plans#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/model/core/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-37.692307">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/main/admin/categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-37.346153">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/template/admin/categories/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/default/template/admin/categories/manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41034484">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
           <folding />
         </state>
       </provider>

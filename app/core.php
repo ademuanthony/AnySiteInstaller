@@ -137,13 +137,13 @@ class Core{
 
 
     public static function getDocumentRoot(){
-        return $_SERVER['DOCUMENT_ROOT'].'/AnySiteGenerator/';//demo
+        return $_SERVER['DOCUMENT_ROOT'].'/AnySiteInstaller/';//demo
         //return $_SERVER['DOCUMENT_ROOT'].'/';//live
     }
 
     public static function getBaseUrl(){
         //"http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-        return "http://$_SERVER[HTTP_HOST]/AnySiteGenerator/";//demo
+        return "http://$_SERVER[HTTP_HOST]/AnySiteInstaller/";//demo
         //return "http://$_SERVER[HTTP_HOST]/"; //live
     }
 

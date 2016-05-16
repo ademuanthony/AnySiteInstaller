@@ -51,10 +51,10 @@
             <action>add</action>
         </route>
         <route>
-            <uri>admin/plans/update</uri>
+            <uri>admin/plans/manage</uri>
             <filePath>main/admin/plans.php</filePath>
             <controller>plans</controller>
-            <action>update</action>
+            <action>manage</action>
         </route>
         <!--/plans-->
 

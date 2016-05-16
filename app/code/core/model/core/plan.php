@@ -19,12 +19,10 @@ class Core_Model_Plan extends Core_Model_Abstract_ModelBase
 
     public function setProperties($pdoObject){
         $this->Id = $pdoObject->id;
-        $this->Title = $pdoObject->title;
+        $this->Name = $pdoObject->name;
         $this->ShortDescription = $pdoObject->shortDescription;
         $this->Description = $pdoObject->description;
-        $this->Image = $pdoObject->image;
         $this->Keywords = $pdoObject->keywords;
-        $this->CategoryId = $pdoObject->categoryId;
         $this->Price = $pdoObject->price;
     }
 
@@ -37,7 +35,6 @@ class Core_Model_Plan extends Core_Model_Abstract_ModelBase
     public $ShortDescription;
     public $Description;
     public $Keywords;
-    public $Image;
     public $Price;
 
 
@@ -47,17 +44,15 @@ class Core_Model_Plan extends Core_Model_Abstract_ModelBase
             name = '".$this->Name."',
             shortDescription = '".$this->ShortDescription. "',
             description = '".$this->Description."',
-            image = '".$this->Image."',
             keywords = '".$this->Keywords."',
             price = '".$this->Price."'
              where id = '".$this->Id."'";
         }else{
-            $sql = "insert into " . $this->getTableName() . "(name, shortDescription, description, image,
+            $sql = "insert into " . $this->getTableName() . "(name, shortDescription, description,
             keywords, price)
 				 value('".StringMethods::MakeSave($this->Name)."',
 				  '".StringMethods::MakeSave($this->ShortDescription)."',
 				  '".StringMethods::MakeSave($this->Description)."',
-				   '".StringMethods::MakeSave($this->Image)."',
 				   '".StringMethods::MakeSave($this->Keywords)."',
 				   '".StringMethods::MakeSave($this->Price)."'
 				   );";
