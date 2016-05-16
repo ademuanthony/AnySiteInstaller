@@ -1,0 +1,140 @@
+<?php
+    
+	class Core_Model_Group extends Core_Model_Abstract_ModelBase{
+        public function __construct(array $param = [0 => -1]){
+            $this->getById(isset($param[0]) ? $param[0] : -1);
+        }
+		
+		public function getById($id = -1){
+			$this->Id = $id;
+			if($id != -1){
+				$sql = "select * from `".Core::getTableName('group')."` where id = '".StringMethods::MakeSave($id)."';";
+				$result = Core_Helper_Db::executeReader($sql);
+				foreach($result as $r){
+					$this->LoginId = StringMethods::GetRaw($r->loginId);
+					$this->Name = StringMethods::GetRaw($r->name);
+					$this->Description = StringMethods::GetRaw($r->description);
+                    $this->GroupExits = TRUE;
+				}
+			}
+		}
+
+        public function getTableName(){
+            return Core::getTableName('group');
+        }
+		
+		public $Id;
+		
+		public $LoginId;
+		
+		public $Name;
+		
+		public $Description;
+
+        public $GroupExits = FALSE;
+		
+		public function GetContactCount(){
+			$sql = "select count(*) as no from ".Core::getTableName('contact')." where groupId = '$this->Id'";
+			$result = Core_Helper_Db::executeReader($sql);
+			foreach($result as $r){
+				return $r->no;
+			}
+		}
+		
+		public function GetContacts($offset = 0, $limit = 0){
+            if($limit == 0){
+			    $sql = "select * from ".Core::getTableName('contact')." where groupId = '$this->Id'";
+            }else{
+                $sql = "select * from ".Core::getTableName('contact')." where groupId = '$this->Id' ORDER BY Id LIMIT $offset, $limit";
+            }
+			//die($sql);
+			$cons = array();
+			$result = Core_Helper_Db::executeReader($sql);
+			foreach($result as $r){
+				$con = Core::loadModel('OpenSms_Model_Contact');
+				$con->GroupId = $this->Id;
+				$con->Name = $r->name;
+				$con->Number = StringMethods::GetRaw($r->number);
+                $con->Id = $r->id;
+				$cons[] = $con;
+			}
+			return $cons;
+		}
+		
+		public function SerializeContacts(){
+			$cons = $this->GetContacts();
+			
+			$out = '';
+			foreach($cons as $c){
+				$out.=$c->Number.',';	
+			}
+			return $out;
+		}
+		
+		public function Save(){
+            $g = self::FindGroupByName($this->Name);
+            if((isset($g->Id) && $g->Id != $this->Id) && $g->LoginId == $this->LoginId){
+                return 'A group with the same name already exist';
+            }
+			if($this->Id != -1){
+				$sql = "update `".Core::getTableName('group')."` set `name` = '".StringMethods::MakeSave($this->Name)."', `description` = '".
+				StringMethods::MakeSave($this->Description).
+				"' where `id` = '".$this->Id."';";
+			}else{
+				$sql = "INSERT INTO `".Core::getTableName('group')."` (`loginId`, `name`, `description`) VALUES('".
+				StringMethods::MakeSave($this->LoginId)."', '".StringMethods::MakeSave($this->Name).
+				"', '".StringMethods::MakeSave($this->Description)."');";
+			}
+            Core_Helper_Db::executeNonQuery($sql);
+			
+			if($this->Id == -1){
+				$sql = "select MAX(id) as no from `".Core::getTableName('group')."`";
+				$result = Core_Helper_Db::executeReader($sql);
+				foreach($result as $r){
+					$this->Id = $r->no;
+                    $this->GroupExits = TRUE;
+					return 'Group Added';	
+				}
+			}
+            return 'Group Updated';
+			
+		}
+		
+		public function Delete(){
+            $sql = "delete from ".Core::getTableName('contact')." where groupId = '".StringMethods::MakeSave($this->Id)."'";
+            Core_Helper_Db::executeNonQuery($sql);
+
+			$sql = "delete from `".Core::getTableName('group')."` where id = '".StringMethods::MakeSave($this->Id)."'";
+            $this->GroupExits = FALSE;
+			return Core_Helper_Db::executeNonQuery($sql);
+		}
+
+        public static function copyFromPDO($pdoObj){
+            $g = Core::loadModel('OpenSms_Model_Group');
+            $g->Id = $pdoObj->id;
+            $g->Name = $pdoObj->name;
+            $g->LoginId  = $pdoObj->loginId;
+            $g->Description = $pdoObj->description;
+            $g->GroupExits = !empty($pdoObj->id);
+
+            return $g;
+        }
+
+        public static function FindGroupByName($name){
+			if(!empty($name)){
+				$sql = "select * from `".Core::getTableName('group')."` where name = '".StringMethods::MakeSave($name)."';";
+				$result = Core_Helper_Db::executeReader($sql);
+				foreach($result as $r){
+                    $g = Core::loadModel('OpenSms_Model_Group');
+                    $g->Id = $r->id;
+					$g->LoginId = StringMethods::GetRaw($r->loginId);
+					$g->Name = StringMethods::GetRaw($r->name);
+					$g->Description = StringMethods::GetRaw($r->description);
+                    $g->GroupExits = TRUE;
+                    return $g;
+				}
+			}
+        }
+			
+	}
+?>

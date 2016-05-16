@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<model_register>
+    <model>
+        <key>OpenSms_Model_User</key>
+        <class_name>Core_Model_User</class_name>
+        <file_path>app/code/core/model/core/user.php</file_path>
+    </model>
+
+    <model>
+        <key>Core_Model_Plan</key>
+        <class_name>Core_Model_Plan</class_name>
+        <file_path>app/code/core/model/core/plan.php</file_path>
+    </model>
+
+    <model>
+        <key>Core_Model_Category</key>
+        <class_name>Core_Model_Category</class_name>
+        <file_path>app/code/core/model/core/category.php</file_path>
+    </model>
+
+    <model>
+        <key>Core_Model_Package</key>
+        <class_name>Core_Model_Package</class_name>
+        <file_path>app/code/core/model/core/package.php</file_path>
+    </model>
+
+    <model>
+        <key>Core_Model_PackagePlanMapping</key>
+        <class_name>Core_Model_PackagePlanMapping</class_name>
+        <file_path>app/code/core/model/core/packagePlanMapping.php</file_path>
+    </model>
+
+    <model>
+        <key>Core_Model_UserPlanMapping</key>
+        <class_name>OpenSms_Model_UserPlanMapping</class_name>
+        <file_path>app/code/core/model/core/userPlanMapping.php</file_path>
+    </model>
+
+
+    <model>
+        <key>OpenSms_Model_Login</key>
+        <class_name>Core_Model_Login</class_name>
+        <file_path>app/code/core/model/core/login.php</file_path>
+    </model>
+
+    <model>
+        <key>Core_Model_Account</key>
+        <class_name>Core_Model_Account</class_name>
+        <file_path>app/code/core/model/core/account.php</file_path>
+    </model>
+    <model>
+        <key>Core_Model_Deposit</key>
+        <class_name>Core_Model_Deposit</class_name>
+        <file_path>app/code/core/model/core/deposit.php</file_path>
+    </model>
+    <model>
+        <key>Core_Model_Withdrawal</key>
+        <class_name>Core_Model_Withdrawal</class_name>
+        <file_path>app/code/core/model/core/withdrawal.php</file_path>
+    </model>
+    <model>
+        <key>Core_Model_Transfer</key>
+        <class_name>Core_Model_Transfer</class_name>
+        <file_path>app/code/core/model/core/transfer.php</file_path>
+    </model>
+
+
+
+
+    <model>
+        <key>OpenSms_Model_Group</key>
+        <class_name>Core_Model_Group</class_name>
+        <file_path>app/code/core/model/core/group.php</file_path>
+    </model>
+    <model>
+        <key>OpenSms_Model_Contact</key>
+        <class_name>Core_Model_Contact</class_name>
+        <file_path>app/code/core/model/core/contact.php</file_path>
+    </model>
+    <model>
+        <key>Core_Model_Transaction</key>
+        <class_name>Core_Model_Transaction</class_name>
+        <file_path>app/code/core/model/core/transaction.php</file_path>
+    </model>
+    <model>
+        <key>OpenSms_Model_Transaction</key>
+        <class_name>Core_Model_Transaction</class_name>
+        <file_path>app/code/core/model/core/transaction.php</file_path>
+    </model>
+    <model>
+        <key>OpenSms_Model_BulkSms</key>
+        <class_name>Core_Model_BulkSms</class_name>
+        <file_path>app/code/core/model/core/bulksms.php</file_path>
+    </model>
+    <model>
+        <key>OpenSms_Model_Message</key>
+        <class_name>Core_Model_Message</class_name>
+        <file_path>app/code/core/model/core/message.php</file_path>
+    </model>
+    <model>
+        <key>OpenSms_Model_Card</key>
+        <class_name>Core_Model_Card</class_name>
+        <file_path>app/code/core/model/core/card.php</file_path>
+    </model>
+    <model>
+        <key>OpenSms_Model_Content</key>
+        <class_name>Core_Model_Content</class_name>
+        <file_path>app/code/core/model/core/content.php</file_path>
+    </model>
+    <model>
+        <key>OpenSms_Model_Page</key>
+        <class_name>Core_Model_Page</class_name>
+        <file_path>app/code/core/model/core/page.php</file_path>
+    </model>
+    <model>
+        <key>OpenSms_Model_ContactMessage</key>
+        <class_name>Core_Model_ContactMessage</class_name>
+        <file_path>app/code/core/model/core/contactMessage.php</file_path>
+    </model>
+    <model>
+        <key>OpenSms_Model_Service</key>
+        <class_name>Core_Model_Service</class_name>
+        <file_path>app/code/core/model/core/service.php</file_path>
+    </model>
+    <model>
+        <key>OpenSms_Model_ServiceRequest</key>
+        <class_name>Core_Model_ServiceRequest</class_name>
+        <file_path>app/code/core/model/core/serviceRequest.php</file_path>
+    </model>
+
+</model_register>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module>
+    <name>CMS</name>
+    <version>1.0.0.0</version>
+    <lincense>Free</lincense>
+    <path>main</path>
+
+    <payments>
+
+    </payments>
+
+    <routes>
+
+        <route>
+            <uri>cms</uri>
+            <filePath>main/cms/pages.php</filePath>
+            <controller>pages</controller>
+            <action>index</action>
+        </route>
+        <route>
+            <uri>cms/save</uri>
+            <filePath>main/cms/cms.php</filePath>
+            <controller>cms</controller>
+            <action>save</action>
+        </route>
+        <route>
+            <uri>cms/addContent</uri>
+            <filePath>main/cms/cms.php</filePath>
+            <controller>cms</controller>
+            <action>addContent</action>
+        </route>
+        <route>
+            <uri>cms/manage</uri>
+            <filePath>main/cms/cms.php</filePath>
+            <controller>cms</controller>
+            <action>editContent</action>
+        </route>
+        <route>
+            <uri>cms/images</uri>
+            <filePath>main/cms/cms.php</filePath>
+            <controller>cms</controller>
+            <action>images</action>
+        </route>
+        <route>
+            <uri>cms/addImage</uri>
+            <filePath>main/cms/cms.php</filePath>
+            <controller>cms</controller>
+            <action>addImage</action>
+        </route>
+        <route>
+            <uri>cms/deleteImage</uri>
+            <filePath>main/cms/cms.php</filePath>
+            <controller>cms</controller>
+            <action>deleteImage</action>
+        </route>
+        <route>
+            <uri>*</uri>
+            <filePath>main/cms/cms.php</filePath>
+            <controller>cms</controller>
+            <action>index</action>
+        </route>
+
+        <route>
+            <uri>cms/pages</uri>
+            <filePath>main/cms/pages.php</filePath>
+            <controller>pages</controller>
+            <action>index</action>
+        </route>
+        <route>
+            <uri>cms/pages/add</uri>
+            <filePath>main/cms/pages.php</filePath>
+            <controller>pages</controller>
+            <action>add</action>
+        </route>
+        <route>
+            <uri>cms/pages/manage</uri>
+            <filePath>main/cms/pages.php</filePath>
+            <controller>pages</controller>
+            <action>manage</action>
+        </route>
+
+        <route>
+            <uri>cms/pages/delete</uri>
+            <filePath>main/cms/pages.php</filePath>
+            <controller>pages</controller>
+            <action>delete</action>
+        </route>
+
+        <route>
+            <uri>cms/pages/display</uri>
+            <filePath>main/cms/pages.php</filePath>
+            <controller>pages</controller>
+            <action>display</action>
+        </route>
+
+
+    </routes>
+
+    <fields>
+
+    </fields>
+
+    <model_register>
+
+    </model_register>
+
+    <actions>
+        <action>
+            <key>before_render</key>
+            <class>actions</class>
+            <method>triggerEditor</method>
+            <fileName>main/cms/actions.php</fileName>
+        </action>
+        <action>
+            <key>before_page_not_found</key>
+            <class>actions</class>
+            <method>triggerDisplayPage</method>
+            <fileName>main/cms/actions.php</fileName>
+        </action>
+    </actions>
+</module>
